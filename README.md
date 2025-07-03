@@ -1,43 +1,34 @@
-# desafio---Vania-dos-Santos
-Desafio Programa de Estágio DB Start
-# LanchoneteDB
+# Aprendizado em SQL com PostgreSQL
 
-Bem-vindo ao projeto LanchoneteDB! Este é um projeto para automatizar o caixa de uma lanchonete, calculando o valor das compras de acordo com o cardápio, regras e descontos.
-
-## Funcionalidades
-
-- Calcula o valor de uma compra com base no cardápio da lanchonete.
-- Aplica descontos para pagamentos em dinheiro e acréscimo para pagamentos a crédito.
-- Verifica se os itens do pedido estão corretos de acordo com as regras.
-- Possui combos e extras para os itens do cardápio.
-
-## Instruções de Uso
-
-1. Clone o repositório:
-
-git clone https://github.com/vvania-ssantos/desafio---Vania-dos-Santos.git
-
-2. Navegue até a pasta do projeto:
-cd LanchoneteDB
-
-3. Instale as dependências (se houver):
-
-
-## Formas de Pagamento
-
-Atualmente, a lanchonete aceita as seguintes formas de pagamento:
-- Dinheiro
-- Débito
-- Crédito
-
-## Contribuição
-
-Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões, fique à vontade para abrir um problema ou enviar um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença ISC - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Este repositório contém a documentação da minha jornada de aprendizado em SQL, focada no banco de dados PostgreSQL. Aqui estão registrados os conceitos que estudei, comandos práticos, exemplos comentados e projetos simples que desenvolvi para treinar.
 
 ---
 
-Criado por Vania dos Santos - vvania-ssantos(https://github.com/vvania-ssantos)
+## 🧩 Tópicos estudados
+
+- Comandos básicos (SELECT, INSERT, UPDATE, DELETE)
+- Filtros e operadores (WHERE, BETWEEN, IN, LIKE)
+- Ordenações e agrupamentos (ORDER BY, GROUP BY, HAVING)
+- Joins (INNER, LEFT, RIGHT, FULL)
+- Subqueries e funções agregadas
+- Criação de tabelas e relacionamento
+- Projetos práticos com datasets reais
+
+---
+
+## 📂 Estrutura do repositório
+
+- `01-comandos-basicos/`: Primeiros passos no SQL
+- `02-consultas/`: Consultas com filtros e ordenações
+- `03-joins-e-subqueries/`: Conectando dados entre tabelas
+- `04-projetos-praticos/`: Exemplos de aplicações reais com SQL
+- `extras/`: Dicas, links úteis e observações do aprendizado
+
+---
+
+> Este repositório é parte da minha evolução como Analista de Dados.
+> Se você está começando, seja bem-vindo(a) a aprender junto comigo!
+
+
+
+
