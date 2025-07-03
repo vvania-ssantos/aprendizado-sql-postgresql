@@ -1,0 +1,80 @@
+# 📌 Comandos Básicos de SQL
+
+Este arquivo contém os comandos básicos de SQL utilizados durante meu processo de aprendizado com PostgreSQL.
+
+---
+
+## 🔍 SELECT
+
+
+SELECT * FROM clientes;
+
+➕ INSERT
+
+INSERT INTO clientes (nome, email)
+VALUES ('Vania', 'vania@email.com');
+
+✏️ UPDATE
+
+UPDATE clientes
+SET email = 'novo@email.com'
+WHERE id = 1;
+
+❌ DELETE
+
+DELETE FROM clientes
+WHERE id = 1;
+
+-- Consulta com WHERE e ORDER BY
+SELECT nome, idade FROM clientes
+WHERE idade > 30
+ORDER BY idade DESC;
+
+-- Consulta com BETWEEN
+SELECT * FROM pedidos
+WHERE data_pedido BETWEEN '2023-01-01' AND '2023-12-31';
+
+03-joins-e-subqueries/exemplos.sql
+
+-- INNER JOIN entre clientes e pedidos
+SELECT c.nome, p.valor_total
+FROM clientes c
+INNER JOIN pedidos p ON c.id = p.cliente_id;
+
+-- Subquery: clientes com mais de 2 pedidos
+SELECT nome FROM clientes
+WHERE id IN (
+  SELECT cliente_id FROM pedidos
+  GROUP BY cliente_id
+  HAVING COUNT(*) > 2
+);
+
+04-projetos-praticos/projeto_loja_virtual.md
+
+# Projeto Prático: Loja Virtual
+
+## Objetivo
+Simular um banco de dados de loja com clientes, produtos e pedidos.
+
+## Exemplo de estrutura:
+- clientes (id, nome, email)
+- produtos (id, nome, preco)
+- pedidos (id, cliente_id, produto_id, data_pedido)
+
+## Exemplo de JOIN
+
+```sql
+SELECT c.nome, p.nome AS produto, pe.data_pedido
+FROM clientes c
+JOIN pedidos pe ON c.id = pe.cliente_id
+JOIN produtos p ON pe.produto_id = p.id;
+
+extras/dicas.md
+
+# Dicas de SQL
+
+- Sempre use `WHERE` em comandos de `UPDATE` ou `DELETE`
+- Use `LIMIT` para evitar retornar milhões de registros
+- Aprenda os tipos de dados do PostgreSQL
+- Salve scripts em arquivos `.sql` para reutilizar
+- Teste consultas antes de executar no banco principal
