@@ -60,4 +60,4 @@ aprendizado-sql-postgresql/
 
 
 
-Quero colar este README no meu github. Agora é a prova de fogo!!! Me ajuda nesta empreitada?
+
