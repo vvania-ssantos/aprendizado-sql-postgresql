@@ -139,7 +139,8 @@ Use como quiser — só não esqueça de deixar uma ⭐ se ele te ajudou!
 
 💬 Contato
 
-📧 Para oportunidades: vania.santos.ds@gmail.com
+📧 Para oportunidades: vvania.santoss@hotmail.com
+LinkedIn: https://www.linkedin.com/in/vaniadossantos/
 
 📎 Mais projetos no GitHub: https://github.com/vvania-ssantos
 
